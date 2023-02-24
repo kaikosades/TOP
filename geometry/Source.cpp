@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using std::cin;
 using std::cout;
 using std::endl;
@@ -9,14 +9,14 @@ using std::endl;
 //#define TASK_4
 //#define TASK_5
 //#define TASK_6
-//#define TASK_7 // Для запуска кода закомментировать 17 строчку тк язык не переключается обратно.
+//#define TASK_7 // Р”Р»СЏ Р·Р°РїСѓСЃРєР° РєРѕРґР° Р·Р°РєРѕРјРјРµРЅС‚РёСЂРѕРІР°С‚СЊ 17 СЃС‚СЂРѕС‡РєСѓ С‚Рє СЏР·С‹Рє РЅРµ РїРµСЂРµРєР»СЋС‡Р°РµС‚СЃСЏ РѕР±СЂР°С‚РЅРѕ.
 //#define TASK_8
 
 void main()
 {
 	setlocale(LC_ALL, "");
 	int n;
-	cout << "Введите размер фигуры:"; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С„РёРіСѓСЂС‹:"; cin >> n;
 #ifdef TASK_0
 	for (int i = 0; i < n; i++)
 	{
